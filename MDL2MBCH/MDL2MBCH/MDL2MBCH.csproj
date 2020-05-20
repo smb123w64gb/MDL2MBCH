@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SPICA\SPICA\SPICA.csproj">
+      <Project>{8149ac62-dd21-4b20-9691-f7ae5f47340f}</Project>
+      <Name>SPICA</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
